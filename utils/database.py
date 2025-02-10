@@ -1,6 +1,7 @@
 import sqlite3
+import os
 
-DB_PATH = "database.db"
+DB_PATH = "/mnt/data/database.db" if os.getenv("STREAMLIT_SERVER") else "database.db"
 
 
 def create_db():
