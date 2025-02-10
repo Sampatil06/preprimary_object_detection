@@ -1,8 +1,12 @@
 streamlit
-opencv-python
+opencv-python-headless
 ultralytics
 google-generativeai
 pillow
 pyttsx3
 gtts
 googletrans==4.0.0-rc1
+requests
+torch
+torchvision
+torchaudio
