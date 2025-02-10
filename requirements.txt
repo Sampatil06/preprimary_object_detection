@@ -5,5 +5,4 @@ google-generativeai
 pillow
 pyttsx3
 gtts
-sqlite3
 googletrans==4.0.0-rc1
