@@ -5,6 +5,10 @@ from utils.database import register_user, login_user
 from utils.object_detection import process_image
 from utils.speech import text_to_speech
 from utils.translation import translate_text
+from utils.database import create_db
+
+create_db()  
+
 
 
 st.set_page_config(page_title="AdaptLearn-Hub", page_icon="📚", layout="wide")
